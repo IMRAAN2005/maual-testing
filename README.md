@@ -12,7 +12,11 @@ https://docs.google.com/spreadsheets/d/1VbvkMAnUs-37PHee11ZsHUVhWdKDs1j3/edit?us
 
 
 ## Python Code (23.09.2026)
-// 1 Question
+
+
+- *1 Question*
+
+```python
 numbers =  input().split(',')
 res=[]
 for i in numbers:
@@ -20,11 +24,11 @@ for i in numbers:
     if dec%5==0:
         res.append(i)
 print(','.join(res))
+```
 
+ - *2 Question*
 
-// 2nd Question
-
-
+```python
 numbers = input().split(',')
 res = []
 
@@ -35,9 +39,11 @@ for n in numbers:
     res.append(str(fact))
 
 print(','.join(res))
+```
 
+- *3 Question*
 
-// 3rd Question 
+```python
 
 s = input()
 letters = 0
@@ -51,3 +57,4 @@ for ch in s:
 
 print("LETTERS", letters)
 print("DIGITS", digits)
+```
