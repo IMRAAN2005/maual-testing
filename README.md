@@ -9,3 +9,45 @@ This project contains manual testing test cases for the Amazon website.
 ## EPTESTING
 
 https://docs.google.com/spreadsheets/d/1VbvkMAnUs-37PHee11ZsHUVhWdKDs1j3/edit?usp=drive_link&ouid=106271844084758099020&rtpof=true&sd=true
+
+
+## Python Code (23.09.2026)
+// 1 Question
+numbers =  input().split(',')
+res=[]
+for i in numbers:
+    dec = int(i,2)
+    if dec%5==0:
+        res.append(i)
+print(','.join(res))
+
+
+// 2nd Question
+
+
+numbers = input().split(',')
+res = []
+
+for n in numbers:
+    fact = 1
+    for i in range(1, int(n) + 1):
+        fact *= i
+    res.append(str(fact))
+
+print(','.join(res))
+
+
+// 3rd Question 
+
+s = input()
+letters = 0
+digits = 0
+
+for ch in s:
+    if ch.isalpha():
+        letters += 1
+    elif ch.isdigit():
+        digits += 1
+
+print("LETTERS", letters)
+print("DIGITS", digits)
