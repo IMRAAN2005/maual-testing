@@ -711,7 +711,7 @@ Space : O(n)
 ## TASK - 6  [ 29/09/2026]
 
   ### Numpy Assignment: 
-   
+   [View Numpy Assignment](Python_Numpy_Assessment.ipynb)
 
   ### Python Functions Assigment:
    [View Python Functions Assignment](Python_assignment.py)
