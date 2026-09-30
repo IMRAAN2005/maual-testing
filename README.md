@@ -700,3 +700,22 @@ Space : O(n)
 ```
 
 ---
+
+
+
+
+
+
+
+
+## TASK - 6  [ 29/09/2026]
+
+  ### Numpy Assignment: 
+   
+
+  ### Python Functions Assigment:
+   [View Python Functions Assignment](Python_assignment.py)
+
+   ### Python Assignment:
+   [View Python Assignments](python.py)
+   
